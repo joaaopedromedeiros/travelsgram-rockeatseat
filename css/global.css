@@ -63,6 +63,6 @@ a:hover {
 .container {
   padding-inline: 32px; /* Espaçamento de qualquer section/container/elemento-pai no eixo X*/
   max-width: 1280px; /* pois vai ficar ajustado como o style*/
-  margin-inline: auto; /* Margin de qualquer section/container/elemento-pai no eixo X* automático e igual/
+  margin-inline: auto; /* Margin de qualquer section/container/elemento-pai no eixo X automático e igual*/
 }
 

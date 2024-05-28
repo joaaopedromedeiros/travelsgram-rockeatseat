@@ -1,0 +1,28 @@
+.about {
+  padding-block: 32px; /* espaçamento eixo Y*/
+  display: flex;
+  justify-content: space-between;
+}
+
+#infos-usuario {
+  display: flex;
+  gap: 32px;
+}
+
+.descrição {
+  max-width: 384px;
+  padding-block: 8px;
+  font-family: var(--text-sm)
+}
+
+.status-usuario {
+  width: 300px;
+}
+
+.status-usuario li {
+  list-style: none;
+  padding-block: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
