@@ -1,0 +1,52 @@
+:root {
+
+  --brand-color: #EF5F4C;
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+  --shape-transparency: rgba(255, 255, 255, 0.56);
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --background-color: #FFFFFF;
+
+  --font-family: "Poppins",sans-serif;
+  --text-lg: bold 32px/125% var(--font-family);
+  --text: 16px/150% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
+  --text-sm: 12px/170% var(--font-family)
+}
+
+/* var para fontes: sizeAndUnit/LineHeight font(Usei uma font dentro da variável acima); */
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+/* Essas cong de espaço acima deixa a gente configurar os espaçamento dos objetos melhor depois, pois não vem com aqueles padrões que dão trabalho*/
+
+.headline1 {
+  font-size: 32px;
+  line-height: 125%;
+  font-display: bold;
+  color: var(--text-color-primary);
+}
+
+.paragraph-md {
+  font-size: 14px;
+  line-height: 170%;
+  color: var(--text-color-secondary);
+}
+
+.paragraph-sm {
+  font-size: 12px;
+  line-height: 170%;
+}
+
+/* Confs e variáveis do style guide do web designer*/
+
