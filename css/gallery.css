@@ -1,0 +1,16 @@
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-block: 24px;
+  
+}
+
+.photo-gallery img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover; /* Quando o objeto fica distorcido essa tag faz se encaixar*/
+  
+  
+}
