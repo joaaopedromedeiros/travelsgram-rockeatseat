@@ -1,0 +1,57 @@
+:root {
+
+  --brand-color: #EF5F4C;
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+}
+
+.headline1 {
+  font-size: 32px;
+  line-height: 125%;
+  font-display: bold;
+  color: var(--text-color-primary);
+}
+
+.paragraph-md {
+  font-size: 14px;
+  line-height: 170%;
+  color: var(--text-color-secondary);
+}
+
+.paragraph-sm {
+  font-size: 12px;
+  line-height: 170%;
+}
+
+/* CSS menu-item*/
+.menu-item {
+color: var(--text-color-secondary);
+}
+
+.menu-item:hover {
+  color: var(--brand-color);
+}
+
+/* CSS Fim menu-item*/
+
+
+/* CSS usuairio-imgs*/
+.usuario-nav-foto {
+  width: 40px;
+}
+
+.foto-usuario-about {
+  width: 176px;
+}
+/* CSS Fim usuario-imgs*/
+
+
+/* CSS Cards-fotos*/
+.card-foto {
+  width: 286px;
+}
+
+
+
+/* CSS Fim cards-fotos*/
+
