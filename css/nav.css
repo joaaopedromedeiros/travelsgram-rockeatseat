@@ -1,0 +1,28 @@
+
+@import url(index.css);
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-block: 8px; /* espaçamento eixo Y*/
+  align-items: center;
+  gap: 24px; /* espaçamento entre eles*/
+  
+}
+
+.usuario-nav-foto {
+  width: 40px;
+  height: 40px;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color)
+}

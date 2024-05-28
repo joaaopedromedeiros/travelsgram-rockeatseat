@@ -1,6 +1,6 @@
 
 @import url(global.css);
-
+@import url(nav.css);
 
 /* CSS menu-item*/
 .menu-item {
@@ -11,18 +11,12 @@ color: var(--text-color-secondary);
   color: var(--brand-color);
 }
 
-/* CSS Fim menu-item*/
 
-
-/* CSS usuairio-imgs*/
-.usuario-nav-foto {
-  width: 40px;
-}
+/* CSS usuario-imgs*/
 
 .foto-usuario-about {
   width: 176px;
 }
-/* CSS Fim usuario-imgs*/
 
 
 /* CSS Cards-fotos*/
@@ -31,6 +25,4 @@ color: var(--text-color-secondary);
 }
 
 
-
-/* CSS Fim cards-fotos*/
 
