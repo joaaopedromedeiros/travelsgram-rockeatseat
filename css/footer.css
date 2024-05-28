@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding-block: 24px;
+  
+
+}
+
+.footer-termos {
+  display: flex;
+  gap: 24px;
+}
